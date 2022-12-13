@@ -108,7 +108,6 @@ public abstract class RsResponseService implements Serializable {
         return "%" + get(value).toLowerCase() + "%";
     }
 
-
     protected boolean nn(String key) {
         return ui.getParameterMap().containsKey(key)
                 && ui.getParameter(key) != null
